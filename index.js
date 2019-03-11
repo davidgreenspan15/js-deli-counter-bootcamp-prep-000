@@ -2,8 +2,9 @@ var katzDeliLine = []
 ticket = []
 function takeANumber(katzDeliLine, ticket) {
  for(let i = 0; i<ticket.length; i++){
-   ticket.push(i + 1)
-   ticket.
+   ticket.push(i + ticket.length)
+  newticket =  ticket.slice(1)
+
  }
   katzDeliLine.push(ticket);
   return(`Welcome, ${ticket}. You are number ${katzDeliLine.length} in line.`);
