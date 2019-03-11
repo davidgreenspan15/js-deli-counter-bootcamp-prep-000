@@ -1,7 +1,12 @@
 var katzDeliLine = []
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
-  return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
+ticket = []
+function takeANumber(katzDeliLine, ticket) {
+ for(let i = 0; i<ticket.length; i++){
+   ticket.push(i + 1)
+   ticket.
+ }
+  katzDeliLine.push(ticket);
+  return(`Welcome, ${ticket}. You are number ${katzDeliLine.length} in line.`);
 }
 function nowServing(katzDeliLine,name) {
   if (katzDeliLine.length === 0) {
